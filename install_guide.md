@@ -22,11 +22,12 @@
 브라우저에 관계없이 확장프로그램 페이지로 이동합니다.</br>
 </br>
 
-2. 브라우저의 확장 아이콘이나 더보기에서 `확장 프로그램`을 클릭</br>
-a. <img src="./imgs/puzzle.png" width="16"> 확장 아이콘 눌러 이동</br>
-`확장프로그램 아이콘` 클릭 > `확장프로그램 관리`</br>
-</br>
-b. <img src="./imgs/more-vert.png" width="16">  더보기 눌러 이동</br>
+2. 브라우저의 확장 아이콘이나 더보기에서 `확장 프로그램`을 클릭
+
+- a. <img src="./imgs/puzzle.png" width="16"> 확장 아이콘 눌러 이동</br>
+`확장프로그램 아이콘` 클릭 > `확장프로그램 관리`
+
+- b. <img src="./imgs/more-vert.png" width="16"> 더보기 눌러 이동</br>
 점 세개 클릭 > `확장 프로그램` > `확장프로그램 관리`를 클릭</br>
 
 <img src="./imgs/tutorial-open.png" width="70%" alt="확장프로그램 페이지 열기"></br>
