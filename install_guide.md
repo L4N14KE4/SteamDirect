@@ -23,10 +23,10 @@
 </br>
 
 2. 브라우저의 확장 아이콘이나 더보기에서 `확장 프로그램`을 클릭</br>
-a. ![puzzle](./imgs/puzzle.svg) 확장 아이콘 눌러 이동</br>
+a. <img src="./imgs/puzzle.png" width="16"> 확장 아이콘 눌러 이동</br>
 `확장프로그램 아이콘` 클릭 > `확장프로그램 관리`</br>
 </br>
-b. ![more-button](./imgs/more-vert.svg) 더보기 눌러 이동</br>
+b. <img src="./imgs/more-vert.png" width="16">  더보기 눌러 이동</br>
 점 세개 클릭 > `확장 프로그램` > `확장프로그램 관리`를 클릭</br>
 
 <img src="./imgs/tutorial-open.png" width="70%" alt="확장프로그램 페이지 열기"></br>
@@ -52,9 +52,6 @@ b. ![more-button](./imgs/more-vert.svg) 더보기 눌러 이동</br>
 파일 선택 창이 뜨면, 압축을 푼 폴더를 선택합니다.</br>
 중요한 점은 폴더를 선택해야 합니다. 폴더 내부의 파일을 선택하면 안됩니다.</br>
 <img src="./imgs/install_load.gif" width="60%" height="60%" alt="Demo_Notice!"></br>
-
-[여기]: https://github.com/L4N14KE4/SteamDirect/releases/download/v0.1.0/SteamDirect.v0.1.0.zip "SteamDirect 다운링크"
-
 
 ## 4. 확장프로그램 고정하기
 확장프로그램 아이콘을 눌러 나오는 확장 중 SteamDirect를 `고정` 버튼을 눌러주세요.</br>
