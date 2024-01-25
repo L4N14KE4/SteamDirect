@@ -98,8 +98,7 @@ SteamDirect는 사용자의 개인정보를 수집하거나 저장하지 않습�
 
 ### 중요: SteamDirect 확장 프로그램 사용으로 인해 발생하는 모든 보안 문제 및 데이터 손실에 대한 책임은 사용자 본인에게 있습니다.
 
-Steam에서는 사용자의 안전을 위해 리다이렉트 경고창을 띄우고 있습니다. 이 확장프로그램은 해당 경고창을 건너뛰는 기능을 수행합니다.</br>
-이는 피싱 사이트나 악성 소프트웨어가 포함된 웹사이트로의 접근 위험을 증가시킬 수 있습니다.</br>
+Steam에서는 사용자의 안전을 위해 리다이렉트 경고창을 띄우고 있습니다. 이 확장프로그램은 해당 경고창을 건너뛰는 기능을 수행합니다. 이는 피싱 사이트나 악성 소프트웨어가 포함된 웹사이트로의 접근 위험을 증가시킬 수 있습니다.</br>
 사용자는 이 확장 프로그램을 사용함으로써 발생할 수 있는 모든 보안 위험을 인지하고, 이에 대한 전적인 책임을 지게 됩니다.
 
 
@@ -135,5 +134,4 @@ SteamDirect는 Valve Corporation의 [Steam] 서비스와 관련이 없으며, Va
 
 [steam]: https://store.steampowered.com/ "Steam"
 [urlscan.io]: https://urlscan.io/ "urlscan.io"
-[Google Safe Browsing]: https://safebrowsing.google.com/ "Google Safe Browsing"
 [Releases]: https://github.com/L4N14KE4/SteamDirect/releases "Releases"
