@@ -1,4 +1,3 @@
-// Set initial state of the toggle switch and handle change events
 document.addEventListener('DOMContentLoaded', function () {
     const toggleSwitch = document.querySelector('#toggleSwitch');
     const statusOn = document.querySelector('#status #on');
@@ -12,21 +11,26 @@ document.addEventListener('DOMContentLoaded', function () {
     chrome.storage.local.get('enabled', function (data) {
         const isEnabled = data.enabled !== undefined ? data.enabled : true;
         toggleSwitch.checked = isEnabled;
-        statusOn.style.display = isEnabled ? 'inline' : 'none';
+        statusOn.style.display = isEnabled ? 'inline': 'none';
         statusOff.style.display = isEnabled ? 'none' : 'inline';
 
         toggleSwitch.addEventListener('change', function () {
-            chrome.storage.local.set({ enabled: isEnabled });
-            statusOn.style.display = isEnabled ? 'inline' : 'none';
-            statusOff.style.display = isEnabled ? 'none' : 'inline';
+            const newEnabledState = this.checked;
 
-            chrome.runtime.sendMessage({ method: 'updateBadge', enabled: isEnabled });
+            chrome.storage.local.set({ enabled: newEnabledState }, function() {
+                if (chrome.runtime.lastError) {
+                    console.error(chrome.i18n.getMessage("errorSettingEnabledState"), chrome.runtime.lastError);
+                } else {
+                    chrome.runtime.sendMessage({ method: 'updateBadge', enabled: newEnabledState });
+                }
+            });
+
+            statusOn.style.display = newEnabledState ? 'inline': 'none';
+            statusOff.style.display = newEnabledState ? 'none' : 'inline';
         });
     });
 });
 
-
-// Handles click event on GitHub logo to open a new tab
 document.querySelector('.githubLogo').addEventListener('click', function () {
     chrome.runtime.sendMessage({ action: "openNewTab", url: "https://github.com/L4N14KE4/SteamDirect" });
 });

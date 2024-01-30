@@ -26,7 +26,7 @@ window.onload = function () {
 
       // Handle notice warning
       if (noticeDiv) {
-        console.log(chrome.i18n.getMessage("noticeWarningDetected"));
+        // console.log(chrome.i18n.getMessage("noticeWarningDetected"));
         try {
           const decodedUrl = decodeURIComponent(encodedUrl);
           window.location.href = decodedUrl;
@@ -37,7 +37,7 @@ window.onload = function () {
       }
       // Handle link blocking warning
       else if (linkBlockedDiv) {
-        console.log(chrome.i18n.getMessage("linkBlockedWarningDetected"));
+        // console.log(chrome.i18n.getMessage("linkBlockedWarningDetected"));
 
         try {
           const decodedUrl = decodeURIComponent(encodedUrl);
@@ -62,7 +62,7 @@ window.onload = function () {
         }
       }
       else {
-        console.log(chrome.i18n.getMessage("noWarningDetected"));
+        // console.log(chrome.i18n.getMessage("noWarningDetected"));
       }
     }
   });

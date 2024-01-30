@@ -5,6 +5,9 @@
   "popupElementNotFound": {
     "message": "The popup element was not found, make sure the ID is correct."
   },
+  "errorSettingEnabledState": {
+    "message": "Error in setting the extension's enabled state."
+  },
   "unableToDecodeURL": {
     "message": "Unable to decode URL, check URL status."
   },
