@@ -63,10 +63,3 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     chrome.tabs.create({ url: request.url });
   }
 });
-
-
-// chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-//   if (request.action == "openNewTab") { // 'openNewTab' 메시지를 받으면 새탭 열어서 얻은 URL로 이동
-//       chrome.tabs.create({ url: request.url });
-//   }
-// });

@@ -109,3 +109,10 @@ input:checked + .slider:before {
     /* github 로고 마우스오버시 손모양 커서로 변경  */
     cursor: pointer;
 }
+
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 10px; /* Space between the buttons */
+  }

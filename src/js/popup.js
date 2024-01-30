@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 요소 못찾으면 에러 메시지 출력
     if (!toggleSwitch || !statusOn || !statusOff) {
-        console.error('요소를 찾을 수 없습니다. ID가 올바른지 확인하세요.');
+        console.error(chrome.i18n.getMessage("popupElementNotFound"));
         return;
     }
 

@@ -2,7 +2,8 @@
   "manifest_version": 3,
   "name": "SteamDirect",
   "version": "0.1",
-  "description": "Steam의 리디렉션 알림 페이지를 스킵하여 해당 페이지로 직접 이동하거나 URL의 안전성을 확인하세요.",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
   "permissions": [
     "scripting",
     "tabs",

@@ -1,0 +1,26 @@
+{
+  "extensionDescription": {
+    "message": "Skip Steam's redirect notification page to go directly to the page, or check the safety of the URL."
+  },
+  "popupElementNotFound": {
+    "message": "The popup element was not found, make sure the ID is correct."
+  },
+  "unableToDecodeURL": {
+    "message": "Unable to decode URL, check URL status."
+  },
+  "noticeWarningDetected": {
+    "message": "[Notice] warning detected."
+  },
+  "linkBlockedWarningDetected": {
+    "message": "[Link blocked!] warning detected."
+  },
+  "noWarningDetected": {
+    "message": "No relevant warning detected."
+  },
+  "goToExternalSite": {
+    "message": "Continue to external site"
+  },
+  "searchURL": {
+    "message": "Search URL"
+  }
+}
