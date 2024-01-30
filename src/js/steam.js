@@ -1,14 +1,14 @@
+// Executes actions when the page loads based on the extension's enabled state
 window.onload = function () {
   chrome.storage.local.get('enabled', function (data) {
-    if (data.enabled) { // Check if the extension is enabled
+    if (data.enabled) {
       const params = new URLSearchParams(window.location.search);
-      const encodedUrl = params.get('u'); // Get 'u' query parameter value
+      const encodedUrl = params.get('u');
 
       // Selectors for different types of warnings
       const noticeDiv = document.querySelector('.warningPanel.friendlyInterstital');
       const linkBlockedDiv = document.querySelector('.warningPanel:not(.friendlyInterstital)');
 
-      // Function to create a button with design
       function createButton(href, className, textContent, marginRight = false) {
         const btn = document.createElement('a');
         btn.href = href;
@@ -24,17 +24,17 @@ window.onload = function () {
         return btn;
       }
 
-      // Handle general warning
+      // Handle notice warning
       if (noticeDiv) {
         console.log(chrome.i18n.getMessage("noticeWarningDetected"));
         try {
           const decodedUrl = decodeURIComponent(encodedUrl);
-          window.location.href = decodedUrl; // Redirect to decoded URL
+          window.location.href = decodedUrl;
         } catch (error) {
           console.error(chrome.i18n.getMessage("unableToDecodeURL"));
-          window.history.back(); // Go back on error
+          window.history.back();
         }
-      } 
+      }
       // Handle link blocking warning
       else if (linkBlockedDiv) {
         console.log(chrome.i18n.getMessage("linkBlockedWarningDetected"));
@@ -44,7 +44,6 @@ window.onload = function () {
           const cleanedUrl = decodedUrl.replace(/(^\w+:|^)\/\//, '').trim();
           const escapedUrl = 'page.domain:' + encodeURIComponent(`"${cleanedUrl}"`);
 
-          // Create buttons with design
           const btnGoToUrl = createButton(decodedUrl, 'btn_grey_white_innerfade btn_medium', chrome.i18n.getMessage("goToExternalSite"), true);
           const btnSearchUrl = createButton(`https://urlscan.io/search/#${escapedUrl}`, 'btn_blue_white_innerfade btn_medium', chrome.i18n.getMessage("searchURL"));
 
@@ -61,8 +60,7 @@ window.onload = function () {
           console.error(chrome.i18n.getMessage("unableToDecodeURL"));
           window.history.back();
         }
-      } 
-      // If no relevant warning is detected
+      }
       else {
         console.log(chrome.i18n.getMessage("noWarningDetected"));
       }
