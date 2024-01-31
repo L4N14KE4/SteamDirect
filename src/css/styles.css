@@ -1,6 +1,6 @@
-/* popup용 css */
+/* CSS for popup */
 
-/* 다크테마 */
+/* Dark theme settings */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -14,7 +14,7 @@ body {
     color: #c6d4df;
 }
 
-/* 제목 이미지 */
+/* Style for the title image */
 .title-image {
     display: block;
     width: 90%;
@@ -22,8 +22,8 @@ body {
     margin: 10px auto 10px;
 }
 
-/* 이미지 */
-/* 확장 로고 */
+/* Image style */
+/* Extension logo style */
 .logo {
     display: block;
     width: 70px;
@@ -32,7 +32,7 @@ body {
 }
 
 
-/* 토글 스위치 */
+/* Toggle switch style */
 .switch {
     position: relative;
     display: inline-block;
@@ -90,29 +90,20 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-/* 텍스트 */
-
+/* Text style */
 .status-text {
     font-family: Arial, sans-serif;
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 10px;
-}
 
-/* GitHub 로고 */
+/* GitHub logo style */
 .githubLogo {
     display: block;
     width: 20px;
     height: auto;
     margin-top: 10px;
     margin-bottom: 5px;
-    /* github 로고 마우스오버시 손모양 커서로 변경  */
+    /* Change cursor to pointer on hover */
     cursor: pointer;
 }
-
-
-.button-container {
-    display: flex;
-    justify-content: center; /* Center the buttons horizontally */
-    gap: 10px; /* Space between the buttons */
-  }
