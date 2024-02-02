@@ -1,6 +1,6 @@
 # psd files
 *.psd
+*.zip
 
 # backup files
-assets/*.zip
 assets/unused/*
