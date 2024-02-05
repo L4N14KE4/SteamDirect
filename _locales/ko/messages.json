@@ -1,4 +1,7 @@
 {
+  "extensionName": {
+    "message": "SteamDirect : 리다이렉트 경고 건너뛰기"
+  },
   "extensionDescription": {
     "message": "Steam의 리디렉션 알림 페이지를 스킵하여 해당 페이지로 직접 이동하거나 URL의 안전성을 확인하세요."
   },

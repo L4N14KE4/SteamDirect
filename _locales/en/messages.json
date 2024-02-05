@@ -1,4 +1,7 @@
 {
+  "extensionName": {
+    "message": "SteamDirect : Skip Redirect Warning"
+  },
   "extensionDescription": {
     "message": "Skip Steam's redirect notification page to go directly to the page, or check the safety of the URL."
   },
