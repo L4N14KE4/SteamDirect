@@ -1,10 +1,11 @@
-# 설치 가이드
+# 수동 설치 가이드
 
-본 문서에서는 SteamDirect 확장 프로그램의 설치 방법을 단계별로 설명합니다.
+본 문서에서는 SteamDirect 확장 프로그램의 수동 설치 방법을 단계별로 설명합니다.</br>
+이 방법은 복잡할 수 있으며, 대부분의 사용자에게 권장되지 않습니다. 가능하다면 [자동 설치](README.md#다운로드)를 사용해주세요.
 
 ## 목차
 1. [다운로드](#1-다운로드)</br>
-2. [.확장 프로그램 페이지 이동](#확장-프로그램-페이지-이동)</br>
+2. [확장 프로그램 페이지 이동](#확장-프로그램-페이지-이동)</br>
 3. [개발자 모드 활성화](#개발자-모드-활성화)</br>
 4. [압축 해제된 확장 프로그램 로드](#압축-해제된-확장-프로그램-로드)</br>
 5. [확장 프로그램 고정하기](#확장-프로그램-고정하기)</br>
@@ -13,7 +14,7 @@
 ## 다운로드
 아래 버튼을 눌러 다운로드 해주세요.
 
-[![Download Button](https://img.shields.io/badge/Download-v0.1.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L4N14KE4/SteamDirect/releases/download/v0.1.0/SteamDirect.v0.1.0.zip)
+[![Download Button](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L4N14KE4/SteamDirect/releases/download/v1.0.0/SteamDirect_v1.0.0zip)
 
 
 ## 확장 프로그램 페이지 이동</br>
