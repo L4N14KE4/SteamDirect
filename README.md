@@ -12,7 +12,7 @@ issues나 pull request로 피드백을 주시면 감사하겠습니다.
 </br>
 
 <p align="center">
-    <a href="https://chromewebstore.google.com/detail/cpipnadbkplegpnjcpedodfgcicgninh">
+    <a href="https://chromewebstore.google.com/detail/cpipnadbkplegpnjcpedodfgcicgninh" target="_blank">
     <picture>
       <source srcset="https://i.imgur.com/XBIE9pk.png" media="(prefers-color-scheme: dark)">
       <img height="58" src="https://i.imgur.com/oGxig2F.png" alt="Chrome Web Store"></picture></a>
@@ -69,7 +69,7 @@ Manifest v3를 지원하는 Chromium 기반 브라우저 (Chrome, Edge, Whale, O
 ### 1. 다운로드
 아래 버튼을 눌러 다운로드 해주세요.
 
-[![Download Button](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L4N14KE4/SteamDirect/releases/download/v1.0.0/SteamDirect_v1.0.0.zip)
+[![Download Button](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L4N14KE4/SteamDirect/releases/download/v.1.0.0/SteamDirect_v1.0.0.zip)
 
 혹은 [Releases]에서 `SteamDirect v1.0.0.zip`을 다운받아 설치합니다.</br>
 
@@ -79,7 +79,7 @@ Manifest v3를 지원하는 Chromium 기반 브라우저 (Chrome, Edge, Whale, O
 </details>
 
 ## 사용법
-> 사용전 SteamDirect를 [툴바에 고정](Manual_install_guide.md#4-확장프로그램-고정하기)해주세요.</br>
+> 사용전 SteamDirect를 [툴바에 고정](Manual_install_guide.md#5-확장-프로그램-고정)해주세요.</br>
 
 <img src="./imgs/popup.png" width="20%" alt="알림">
 </br>
@@ -153,5 +153,5 @@ SteamDirect는 Valve Corporation의 [Steam] 서비스와 관련이 없으며, Va
 
 [steam]: https://store.steampowered.com/ "Steam"
 [urlscan.io]: https://urlscan.io/ "urlscan.io"
-[Releases]: https://github.com/L4N14KE4/SteamDirect/releases "Releases"
+[Releases]: https://github.com/L4N14KE4/SteamDirect/releases/tag/v.1.0.0 "Releases"
 [Chrome Web Store]: https://chrome.google.com/webstore/detail/steamdirect/cpipnadbkplegpnjcpedodfgcicgninh "Chrome Web Store"
