@@ -12,7 +12,7 @@ issues나 pull request로 피드백을 주시면 감사하겠습니다.
 </br>
 
 <p align="center">
-    <a href="https://chromewebstore.google.com/detail/cpipnadbkplegpnjcpedodfgcicgninh" target="_blank">
+    <a href="https://chromewebstore.google.com/detail/cpipnadbkplegpnjcpedodfgcicgninh">
     <picture>
       <source srcset="https://i.imgur.com/XBIE9pk.png" media="(prefers-color-scheme: dark)">
       <img height="58" src="https://i.imgur.com/oGxig2F.png" alt="Chrome Web Store"></picture></a>
