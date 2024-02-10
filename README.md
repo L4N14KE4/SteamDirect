@@ -9,14 +9,27 @@ issues나 pull request로 피드백을 주시면 감사하겠습니다.
 <img src="imgs/readme_logo.png" width="20%" alt="README_Logo">
 </p>
 
+</br>
+
+<p align="center">
+    <a href="https://chromewebstore.google.com/detail/cpipnadbkplegpnjcpedodfgcicgninh">
+    <picture>
+      <source srcset="https://i.imgur.com/XBIE9pk.png" media="(prefers-color-scheme: dark)">
+      <img height="58" src="https://i.imgur.com/oGxig2F.png" alt="Chrome Web Store"></picture></a>
+    </a>
+</p>
+
+---
 
 [소개](#소개)</br>
 [지원 사이트](#지원-사이트)</br>
-[설치](#설치)</br>
+[다운로드](#다운로드)
 [사용법](#사용법)</br>
 [개인정보 처리방침](#개인정보-처리방침)</br>
 [면책 조항](#면책-조항)</br>
 [작동 원리](#작동-원리)</br>
+
+
 
 ## 소개
 
@@ -41,26 +54,32 @@ Steam 서비스(Steam store, Community, Steam Chat) 접속시 파란색 아이�
 ### 비활성화(붉은색)
 그 외의 사이트 접속시 붉은색 아이콘이 표시됩니다.</br>
 
-## 설치
-### 설치에 어려움을 겪으시는 경우, [설치 가이드](install_guide.md) 문서를 참조해 주세요.</br>
-
+## 다운로드
+[Chrome Web Store]를 통해 확장프로그램을 다운 받을 수 있습니다.(최상단 이미지 클릭)</br>
 ### 지원 브라우저
 Manifest v3를 지원하는 Chromium 기반 브라우저 (Chrome, Edge, Whale, Opera, Vivaldi 등)에서 사용 가능합니다.
+
+<details>
+<summary>수동설치를 원하는 경우</summary>
+
+> 이 방법은 복잡할 수 있으며, 대부분의 사용자에게 권장되지 않습니다. 가능하다면 [Chrome Web Store]를 통해 다운로드 해주세요.</br>
+
+#### 설치시, [수동 설치 가이드](Manual_install_guide.md) 문서를 참조해 주세요.</br>
 
 ### 1. 다운로드
 아래 버튼을 눌러 다운로드 해주세요.
 
-[![Download Button](https://img.shields.io/badge/Download-v0.1.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L4N14KE4/SteamDirect/releases/download/v0.1.0/SteamDirect.v0.1.0.zip)
+[![Download Button](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L4N14KE4/SteamDirect/releases/download/v1.0.0/SteamDirect_v1.0.0.zip)
 
-혹은 [Releases]에서 `SteamDirect v0.1.0.zip`을 다운받아 설치합니다.</br>
+혹은 [Releases]에서 `SteamDirect v1.0.0.zip`을 다운받아 설치합니다.</br>
 
 
-### 설치 방법
+### 2. 설치
 다운로드한 파일의 압축을 풀고, 브라우저의 확장 프로그램 페이지에서 `개발자 모드`를 활성화한 후, `압축 해제된 확장 프로그램을 로드합니다`를 클릭하여 설치합니다.
-
+</details>
 
 ## 사용법
-> 사용전 SteamDirect를 [툴바에 고정](install_guide.md#4-확장프로그램-고정하기)해주세요.</br>
+> 사용전 SteamDirect를 [툴바에 고정](Manual_install_guide.md#4-확장프로그램-고정하기)해주세요.</br>
 
 <img src="./imgs/popup.png" width="20%" alt="알림">
 </br>
@@ -135,3 +154,4 @@ SteamDirect는 Valve Corporation의 [Steam] 서비스와 관련이 없으며, Va
 [steam]: https://store.steampowered.com/ "Steam"
 [urlscan.io]: https://urlscan.io/ "urlscan.io"
 [Releases]: https://github.com/L4N14KE4/SteamDirect/releases "Releases"
+[Chrome Web Store]: https://chrome.google.com/webstore/detail/steamdirect/cpipnadbkplegpnjcpedodfgcicgninh "Chrome Web Store"
