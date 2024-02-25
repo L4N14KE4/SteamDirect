@@ -1,9 +1,6 @@
 # SteamDirect
-```
-이 프로젝트는 제 첫 js 프로젝트입니다.
-배포보단 공부목적으로 올린 Repo로 코드가 난잡하고, 개선할 점이 많습니다.
-issues나 pull request로 피드백을 주시면 감사하겠습니다.
-```
+> [!NOTE]\
+> 이 프로젝트는 제 첫 js 프로젝트입니다. </br>배포보단 공부목적으로 올린 Repo로 코드가 난잡하고, 개선할 점이 많습니다. </br>issues나 pull request로 피드백을 주시면 감사하겠습니다.
 
 <p align="center">
 <img src="imgs/readme_logo.png" width="20%" alt="README_Logo">
