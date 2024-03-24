@@ -6,7 +6,7 @@ issues나 pull request로 피드백을 주시면 감사하겠습니다.
 ```
 
 <p align="center">
-<img src="imgs/readme_logo.png" width="20%" alt="README_Logo">
+<img src="docs/imgs/readme_logo.png" width="20%" alt="README_Logo">
 </p>
 
 </br>
