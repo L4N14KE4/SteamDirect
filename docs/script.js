@@ -35,7 +35,7 @@ function updateContent(lang) {
         <h2>${texts.setting}</h2>
         <h3>${texts.Pin}</h3>
         <p>${texts.pinInstruction_1.replace('imgs/extension_pin.png', pinImagePath)}</p>
-        <video id="pin-instruction-video" controls style="width:100%; max-width:400px; margin-top:0px;">
+        <video id="pin-instruction-video" controls style="width:100%; max-width:500px; margin-top:0px;">
         <source src="" type="video/mp4"></video>
         <p>${texts.pinInstruction_2}</p>
         <h2>${texts.usage}</h2>
