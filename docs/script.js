@@ -24,8 +24,8 @@ function updateContent(lang) {
     const contentDiv = document.getElementById('content');
     const texts = languages[lang];
     // 언어에 맞는 이미지 경로 설정
-    const pinImagePath = lang === 'ko' ? '../../imgs/extension_pin_ko.png' : '../../imgs/extension_pin_en.png';
-    const badgeImagePath = lang === 'ko' ? '../../imgs/on&off_icon_ko.png' : '../../imgs/on&off_icon_en.png';
+    const pinImagePath = lang === 'ko' ? '/SteamDirect/imgs/extension_pin_ko.png' : '/SteamDirect/imgs/extension_pin_en.png';
+    const badgeImagePath = lang === 'ko' ? '/SteamDirect/imgs/on&off_icon_ko.png' : '/SteamDirect/imgs/on&off_icon_en.png';
 
     // 동적으로 콘텐츠 내용 업데이트
 
@@ -41,7 +41,7 @@ function updateContent(lang) {
         <h2>${texts.usage}</h2>
         <p>${texts.usageDetails}</p>
         <h2>${texts.badge}</h2>
-        <p>${texts.badgeDetails.replace('../../imgs/on&off_icon_ko.png', badgeImagePath)}</p>
+        <p>${texts.badgeDetails.replace('/SteamDirect/imgs/on&off_icon_ko.png', badgeImagePath)}</p>
         <h2>${texts.support}</h2>
         <p>${texts.supportDetails}</p>
         <p>${texts.additionalInfo}</p>
@@ -70,5 +70,5 @@ document.getElementById('ko').addEventListener('click', function() {
 // 언어에 따른 동영상 소스 변경 함수
 function updateVideoSource(lang) {
     const video = document.getElementById('pin-instruction-video');
-    video.src = lang === 'ko' ? '../../imgs/videos/pin-instruction-ko.mp4' : '../../imgs/videos/pin-instruction-en.mp4';
+    video.src = lang === 'ko' ? '/SteamDirect/imgs/videos/pin-instruction-ko.mp4' : '/SteamDirect/imgs/videos/pin-instruction-en.mp4';
 }
