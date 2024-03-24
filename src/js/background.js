@@ -17,8 +17,8 @@ function updateBadge(isEnabled) {
 chrome.runtime.onInstalled.addListener(function(details) {
   if (details.reason === 'install') {
     chrome.storage.local.set({enabled: true});
-    // 모든 사용자를 동일한 URL로 리다이렉트
-    const startURL = "https://www.mozilla.org/firefox/";
+    // Github Pages로 만든 안내 페이지로 이동
+    const startURL = "https://l4n14ke4.github.io/SteamDirect/";
     chrome.tabs.create({url: startURL});
   }
 });
