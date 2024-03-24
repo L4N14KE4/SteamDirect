@@ -78,7 +78,7 @@ Manifest v3를 지원하는 Chromium 기반 브라우저 (Chrome, Edge, Whale, O
 ## 사용법
 > 사용전 SteamDirect를 [툴바에 고정](Manual_install_guide.md#5-확장-프로그램-고정)해주세요.</br>
 
-<img src="./imgs/popup.png" width="20%" alt="알림">
+<img src="./imgs/popup.png" width="150" alt="알림">
 </br>
 
 SteamDirect 확장 프로그램 아이콘을 클릭하여 `ON / OFF` 토글로 활성화 상태를 조절할 수 있습니다. 기본값은 `ON`입니다.
@@ -90,9 +90,9 @@ Steam 리다이렉트 경고창은 `알림`과 `링크 차단!` 두 가지가 �
 SteamDirect가 `ON`인 경우 SteamDirect가 자동으로 해당 알림창을 건너뜁니다.</br>
 해당창은 몇초 내로 자동으로 사라지고, 리디렉트 URL로 이동합니다.</br>
 
-<img src="./imgs/Notice.png" width="70%" alt="알림">
+<img src="./imgs/Notice.png" width="80%" alt="알림">
 </br>
-<img src="./imgs/Demo_Notice!.gif" width="70%" alt="Demo_Notice!"></br>
+<img src="./imgs/Demo_Notice!.gif" width="80%" alt="Demo_Notice!"></br>
 
 ---
 ### 2. 링크차단(Link Blocked!)
@@ -100,9 +100,9 @@ SteamDirect가 `ON`인 경우 SteamDirect가 자동으로 해당 알림창을 �
 해당 경고의 경우 사용자의 판단에 맡깁니다.</br>
 `외부창으로 이동`, `URL 검색하기` 버튼을 통해 사이트로 이동할지, [urlscan.io] 검색창으로 이동할지 선택할 수 있습니다.</br>
 
-<img src="./imgs/Link_Blocked!.png" width="70%" alt="링크 차단! 경고">
+<img src="./imgs/Link_Blocked!.png" width="80%" alt="링크 차단! 경고">
 </br>
-<img src="./imgs/Demo_Link_Blocked!.gif" width="70%" alt="Demo_Link_Blocked!"></br>
+<img src="./imgs/Demo_Link_Blocked!.gif" width="80%" alt="Demo_Link_Blocked!"></br>
 
 
 ## 개인정보 처리방침
