@@ -52,7 +52,7 @@
 
 ## 5. 확장 프로그램 고정
 1. 확장 프로그램 아이콘을 클릭한 후, SteamDirect를 찾아 `고정` 버튼을 클릭합니다.</br>
-<img src="./imgs/extension_pin.png" width="30%" alt="고정하기"></br>
+<img src="./docs/imgs/extension_pin_ko.png" width="30%" alt="고정하기"></br>
 
 2. 또는 확장 프로그램 페이지에서 SteamDirect의 세부정보를 클릭한 후 툴바에 고정을 선택합니다.</br>
 

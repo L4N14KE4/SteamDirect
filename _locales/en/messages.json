@@ -28,5 +28,11 @@
   },
   "searchURL": {
     "message": "Search URL"
+  },
+  "unsupportedSiteTooltip": {
+    "message": "This site is not supported."
+  },
+  "githubLinkTooltip": {
+    "message": "Visit the GitHub repository"
   }
 }

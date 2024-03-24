@@ -1,6 +1,5 @@
-/* CSS for popup */
+/* 팝업 기본 스타일 */
 
-/* Dark theme settings */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -14,7 +13,7 @@ body {
     color: #c6d4df;
 }
 
-/* Style for the title image */
+/* 타이틀 이미지 */
 .title-image {
     display: block;
     width: 90%;
@@ -22,8 +21,7 @@ body {
     margin: 10px auto 10px;
 }
 
-/* Image style */
-/* Extension logo style */
+/* 확장 로고 이미지 */
 .logo {
     display: block;
     width: 70px;
@@ -32,7 +30,7 @@ body {
 }
 
 
-/* Toggle switch style */
+/* 토글 스위치 */
 .switch {
     position: relative;
     display: inline-block;
@@ -43,11 +41,12 @@ body {
 }
 
 .switch input { 
-    opacity: 0;
+    opacity: 0; /* 입력 필드 숨김 */
     width: 0;
     height: 0;
 }
 
+/* 슬라이더 */
 .slider {
     position: absolute;
     cursor: pointer;
@@ -70,6 +69,7 @@ body {
     transition: .4s;
 }
 
+/* 체크 상태일때 */
 input:checked + .slider {
     background-color: #2196F3;
 }
@@ -82,6 +82,7 @@ input:checked + .slider:before {
     transform: translateX(26px);
 }
 
+/* 라운딩 처리 */
 .slider.round {
     border-radius: 34px;
 }
@@ -90,7 +91,7 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-/* Text style */
+/* 상태 텍스트 */
 .status-text {
     font-family: Arial, sans-serif;
     font-weight: 500;
@@ -105,6 +106,5 @@ input:checked + .slider:before {
     height: auto;
     margin-top: 10px;
     margin-bottom: 5px;
-    /* Change cursor to pointer on hover */
     cursor: pointer;
 }

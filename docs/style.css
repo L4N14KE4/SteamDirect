@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SUIT-Regular', Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #171a21;
+    color: #c6d4df;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+.language-button {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    background-color: #2a475e;
+    color: #c6d4df;
+}
+
+.language-button.active {
+    background-color: #66c0f4;
+    color: #171a21;
+    border-color: #66c0f4;
+}
+
+#language-switch {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#steamdirect-logo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #steamdirect-logo {
+        max-width: 250px;
+    }
+}
+
+/* 제목 강조색 */
+.highlight {
+    color: #66C0F4;
+}
+
+h2 + p, h2 + div {
+    margin-top: 20px;
+}
+
+p + h2 {
+    margin-top: 50px;
+}
+
+video#pin-instruction-video {
+    border: 3px solid #66c0f4;
+    border-radius: 5px;
+}
+
+a {
+    color: #66c0f4;
+    text-decoration: underline;
+}
+
+footer img {
+    width: 20px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#before-use {
+    margin-bottom: 20px;
+}
+
+footer img {
+    width: 20px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

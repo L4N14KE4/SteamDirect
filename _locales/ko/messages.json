@@ -28,6 +28,11 @@
   },
   "searchURL": {
     "message": "URL 검색"
+  },
+  "unsupportedSiteTooltip": {
+    "message": "지원하지 않는 사이트입니다."
+  },
+  "githubLinkTooltip": {
+    "message": "GitHub 리포지토리 방문"
   }
 }
-  
