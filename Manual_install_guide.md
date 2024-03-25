@@ -13,7 +13,7 @@
 ## 1. 다운로드
 아래 버튼을 눌러 다운로드 해주세요.
 
-[![Download Button](https://img.shields.io/badge/Download-v1.0.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L4N14KE4/SteamDirect/releases/download/v.1.0.0/SteamDirect_v1.0.0.zip)
+[![Download Button](https://img.shields.io/badge/Download-v1.1.0-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L4N14KE4/SteamDirect/releases/download/v.1.1.0/SteamDirect.v1.1.0.zip)
 
 
 ## 2. 확장 프로그램 페이지 이동
