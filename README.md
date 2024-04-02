@@ -147,8 +147,14 @@ SteamDirect는 Valve Corporation의 [Steam] 서비스와 관련이 없으며, Va
 링크 차단 경고: h1 태그에 '링크 차단!' 또는 'Link Blocked!' 경고 메시지가 있는 경우, 링크 차단 경고가 감지되었다는 로그를 출력합니다.</br>
 이 경우, URL 파라미터 'u'에 포함된 URL로 이동하는 것을 막고, `외부 사이트로 이동`과 `URL 검색하기` 버튼을 생성합니다.
 
+### 기여자(Credits)
+이 프로젝트에 기여해 주신 모든 분들께 진심으로 감사드립니다.
+
+- [Black-Cows] - 테스트 및 피드백, 홍보
++ 그 외 많은 분들 - 테스트
 
 [steam]: https://store.steampowered.com/ "Steam"
 [urlscan.io]: https://urlscan.io/ "urlscan.io"
 [Releases]: https://github.com/L4N14KE4/SteamDirect/releases/tag/v.1.0.0 "Releases"
 [Chrome Web Store]: https://chrome.google.com/webstore/detail/steamdirect/cpipnadbkplegpnjcpedodfgcicgninh "Chrome Web Store"
+[black-Cows]: https://github.com/Black-Cows
