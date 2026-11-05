@@ -15,6 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleSwitch.checked = isEnabled;
         statusOn.style.display = isEnabled ? 'inline' : 'none';
         statusOff.style.display = isEnabled ? 'none' : 'inline';
+
+        toggleSwitch.offsetWidth; // 초기 상태를 먼저 reflow 시킨 뒤 애니메이션 활성화
+        document.body.classList.add('ready');
     });
 
     // 토글 스위치 변경시 확장 활성화 상태를 업데이트

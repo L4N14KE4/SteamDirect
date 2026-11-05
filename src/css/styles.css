@@ -55,7 +55,6 @@ body {
     right: 0;
     bottom: 0;
     background-color: #ccc;
-    transition: .4s;
 }
 
 .slider:before {
@@ -66,6 +65,11 @@ body {
     left: 4px;
     bottom: 4px;
     background-color: white;
+}
+
+/* 저장된 상태가 적용된 뒤(body.ready)에만 애니메이션 — 팝업 열 때마다 off→on 모션이 재생되는 것 방지 */
+body.ready .slider,
+body.ready .slider:before {
     transition: .4s;
 }
 
