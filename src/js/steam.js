@@ -42,14 +42,28 @@ function handleWarnings(decodedUrl, panel) {
 }
 
 
+// 버튼 문구는 Steam 페이지 언어(<html lang>)를 따름 — Steam 자체 버튼과 나란히 놓이므로.
+// 해당 언어의 _locales 가 없으면 chrome.i18n(Chrome UI 언어)으로 폴백
+async function pageMessages() {
+  const lang = document.documentElement.lang.replace('-', '_');
+  const table = lang
+    ? await fetch(chrome.runtime.getURL(`_locales/${lang}/messages.json`))
+        .then(r => r.ok ? r.json() : {})
+        .catch(() => ({}))
+    : {};
+  return key => table[key]?.message ?? chrome.i18n.getMessage(key);
+}
+
+
 // 링크 차단 경고 처리
-function handleLinkBlockedWarning(decodedUrl) {
+async function handleLinkBlockedWarning(decodedUrl) {
+  const msg = await pageMessages();
   const cleanedUrl = decodedUrl.replace(/(^\w+:|^)\/\//, '').trim();
   const escapedUrl = 'page.domain:' + encodeURIComponent(`"${cleanedUrl}"`);
   // URL 열기 버튼
-  const btnGoToUrl = createButton(decodedUrl, 'btn_grey_white_innerfade btn_medium', chrome.i18n.getMessage("goToExternalSite"), true);
+  const btnGoToUrl = createButton(decodedUrl, 'btn_grey_white_innerfade btn_medium', msg("goToExternalSite"), true);
   // urlscan.io 검색
-  const btnSearchUrl = createButton(`https://urlscan.io/search/#${escapedUrl}`, 'btn_blue_white_innerfade btn_medium', chrome.i18n.getMessage("searchURL"));
+  const btnSearchUrl = createButton(`https://urlscan.io/search/#${escapedUrl}`, 'btn_blue_white_innerfade btn_medium', msg("searchURL"));
 
   // DOM에 버튼 추가
   const warningActions = document.createElement('div');

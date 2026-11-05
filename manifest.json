@@ -33,5 +33,11 @@
       ],
       "run_at" : "document_start"
     }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["_locales/*/messages.json"],
+      "matches": ["https://steamcommunity.com/*"]
+    }
   ]
 }
